@@ -7,6 +7,6 @@ int main() {
     for (i = 1; i <= 100; i++) {
         soma += i;
     }
-    printf("A soma dos cem primeiros números naturais é: %d\n", soma);
+    printf("A soma dos cem primeiros numeros naturais e: %d\n", soma);
     return 0;
 }

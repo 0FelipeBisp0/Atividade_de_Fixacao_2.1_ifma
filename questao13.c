@@ -10,8 +10,8 @@ int main() {
         somatorio += valores[i];
     }
     media = somatorio / 10;
-    printf("O somatório dos valores lidos é: %.2f\n", somatorio);
-    printf("A média dos valores lidos é: %.2f\n", media);
+    printf("O somatorio dos valores lidos e: %.2f\n", somatorio);
+    printf("A media dos valores lidos e: %.2f\n", media);
     return 0;
 }
 

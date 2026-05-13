@@ -23,7 +23,7 @@ int main() {
     for (int i = 0; i < 15; i++) {
         somatorio += fatorial(valores[i]);
     }
-
-    printf("O somatório da fatorial de cada valor lido é: %lld\n", somatorio);
+    
+    printf("O somatorio da fatorial de cada valor lido e: %lld\n", somatorio);
     return 0;
 }

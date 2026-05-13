@@ -10,6 +10,6 @@ int main() {
             soma += i;
         }
     }
-    printf("A soma dos valores pares de 1 a 500 é: %d\n", soma);
+    printf("A soma dos valores pares de 1 a 500 e: %d\n", soma);
     return 0;
 }

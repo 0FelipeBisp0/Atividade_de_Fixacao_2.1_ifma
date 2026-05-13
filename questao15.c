@@ -11,7 +11,7 @@ int fatorial(int n) {
 }
 
 int main() {
-    printf("Fatorial dos valores ímpares de 1 a 10:\n");
+    printf("Fatorial dos valores impares de 1 a 10:\n");
     for (int i = 1; i <= 10; i += 2) {
         printf("Fatorial de %d é %d\n", i, fatorial(i));
     }

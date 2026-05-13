@@ -17,6 +17,6 @@ int main() {
         graos *= 2;
         total += graos;
     }
-    printf("O total de grãos de trigo no tabuleiro é: %llu\n", total);
+    printf("O total de graos de trigo no tabuleiro e: %llu\n", total);
     return 0;
 }

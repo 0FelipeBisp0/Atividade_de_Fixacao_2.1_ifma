@@ -16,26 +16,26 @@ int main() {
     char resposta[10];
 
     do {
-        printf("Digite o nome do cômodo: ");
+        printf("Digite o nome do comodo: ");
         fgets(nome, sizeof(nome), stdin);
         nome[strcspn(nome, "\n")] = '\0';
 
-        printf("Digite a largura do cômodo em metros: ");
+        printf("Digite a largura do comodo em metros: ");
         scanf("%f", &largura);
 
-        printf("Digite o comprimento do cômodo em metros: ");
+        printf("Digite o comprimento do comodo em metros: ");
         scanf("%f", &comprimento);
 
         area = largura * comprimento;
         area_total += area;
 
-        printf("A área do %s é: %.2f metros quadrados\n", nome, area);
+        printf("A area do %s e: %.2f metros quadrados\n", nome, area);
 
-        printf("Deseja continuar calculando novos cômodos? (SIM/NÃO): ");
+        printf("Deseja continuar calculando novos comodos? (SIM/NAO): ");
         scanf("%s", resposta);
         getchar(); 
-    } while (strcmp(resposta, "NÃO") != 0);
+    } while (strcmp(resposta, "NAO") != 0);
 
-    printf("A área total acumulada da residência é: %.2f metros quadrados\n", area_total);
+    printf("A area total acumulada da residencia e: %.2f metros quadrados\n", area_total);
     return 0;
 }

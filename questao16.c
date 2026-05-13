@@ -11,10 +11,10 @@ int main() {
         }
     }
     if (cont > 0) {
-        printf("A soma dos valores pares de 50 a 70 é: %d\n", soma);
-        printf("A média aritmética dos valores pares de 50 a 70 é: %.2f\n", (float)soma / cont);
+        printf("A soma dos valores pares de 50 a 70 e: %d\n", soma);
+        printf("A media aritmetica dos valores pares de 50 a 70 e: %.2f\n", (float)soma / cont);
     } else {
-        printf("Não foram encontrados valores pares na faixa de 50 a 70.\n");
+        printf("Nao foram encontrados valores pares na faixa de 50 a 70.\n");
     }
     return 0;
 }

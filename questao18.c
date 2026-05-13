@@ -19,8 +19,8 @@ int main() {
         }
     }
     if (maior > 0 && menor > 0) {
-        printf("O maior valor informado é: %d\n", maior);
-        printf("O menor valor informado é: %d\n", menor);
+        printf("O maior valor informado e: %d\n", maior);
+        printf("O menor valor informado e: %d\n", menor);
     } else {
         printf("Nenhum valor positivo foi informado.\n");
     }

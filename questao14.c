@@ -20,9 +20,9 @@ int main() {
 
     if (cont > 0) {
         media = somatorio / cont;
-        printf("O somatório dos valores lidos é: %.2f\n", somatorio);
-        printf("A média dos valores lidos é: %.2f\n", media);
-        printf("O total de valores lidos é: %d\n", cont);
+        printf("O somatorio dos valores lidos e: %.2f\n", somatorio);
+        printf("A media dos valores lidos e: %.2f\n", media);
+        printf("O total de valores lidos e: %d\n", cont);
     } else {
         printf("Nenhum valor positivo foi fornecido.\n");
     }
