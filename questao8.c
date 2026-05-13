@@ -10,7 +10,7 @@ para multiplicar a base cada uma das E vezes.*/
 
 int main (){
 
-    int base, expo;
+    int base, expo, resultado;
     char input[10];
     while (1)
     {    
@@ -23,12 +23,12 @@ int main (){
         }
         sscanf(input, "%d", &base);
         scanf("%d", &expo);
-        for (int i = 1; i < expo; i++)
+        resultado = 1;
+        for (int i = 1; i <= expo; i++)
         {
-            base *= expo;
-            printf("%d/\n", base);
+            resultado *= base;
         }
-        
+        printf("O resultado de %d elevado a %d é: %d\n", base, expo, resultado);
     }
 
 }

@@ -8,11 +8,10 @@ laço para resolver o problema.*/
 int main() {
     int val=1, i;
 
-    for (i = 0; i < 15; i++)
+    for (i = 0; i <= 15; i++)
     {
-        val *=3;
         printf("%d/", val);
-
+        val *=3;
     }
     return 0;
 }
