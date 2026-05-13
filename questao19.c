@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &divisor);
 
     if (divisor == 0) {
-        printf("Erro: Divisão por zero não é permitida.\n");
+        printf("Erro: Divisao por zero nao e permitida.\n");
         return 1;
     }
 
@@ -24,6 +24,6 @@ int main() {
         quociente++;
     }
 
-    printf("O resultado inteiro da divisão é: %d\n", quociente);
+    printf("O resultado inteiro da divisao e: %d\n", quociente);
     return 0;
 }

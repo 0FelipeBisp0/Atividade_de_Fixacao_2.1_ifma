@@ -14,7 +14,7 @@ int main (){
     char input[10];
     while (1)
     {    
-        printf("Digite os números da base e do expoente respectivamente ou 'sair' para encerrar o programa: ");
+        printf("Digite os numeros da base e do expoente respectivamente ou 'sair' para encerrar o programa: ");
         scanf("%s", input);
 
         if (strcmp(input, "sair") == 0)
@@ -28,7 +28,7 @@ int main (){
         {
             resultado *= base;
         }
-        printf("O resultado de %d elevado a %d é: %d\n", base, expo, resultado);
+        printf("O resultado de %d elevado a %d e: %d\n", base, expo, resultado);
     }
 
 }
